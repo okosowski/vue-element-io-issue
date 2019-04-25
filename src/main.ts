@@ -5,10 +5,10 @@ import router from './router';
 import ElementUI from 'element-ui';
 
 // default
-import 'element-ui/lib/theme-chalk/index.css';
+// import 'element-ui/lib/theme-chalk/index.css';
 
 // custom
-// import './custom-theme.scss';
+import './custom-theme.scss';
 
 Vue.config.productionTip = false;
 Vue.use(ElementUI);
